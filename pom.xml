@@ -47,6 +47,7 @@
 		<module>configuration-server</module>
 		<module>discovery-server</module>
 		<module>gateway-server</module>
+		<module>booking-service</module>
 	</modules>
 
 </project>
