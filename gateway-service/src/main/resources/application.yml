@@ -4,7 +4,7 @@ spring:
   profiles:
     active: development
   config:
-    import: optional:configserver:http://localhost:8888,optional:configserver:http://localhost:8889
+    import: optional:configserver:http://localhost:8888
 #  cloud:
 #    config:
 #      label: 005-Reactive-services
