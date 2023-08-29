@@ -47,6 +47,7 @@
 		<module>configuration-server</module>
 		<module>discovery-server</module>
 		<module>gateway-server</module>
+		<module>timetable-service</module>
 	</modules>
 
 </project>
