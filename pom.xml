@@ -38,4 +38,10 @@
 		</plugins>
 	</build>
 
+	<modules>
+		<module>configuration-server</module>
+		<module>discovery-service</module>
+		<module>gateway-service</module>
+	</modules>
+
 </project>
