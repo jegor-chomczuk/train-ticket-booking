@@ -48,6 +48,7 @@
 		<module>discovery-server</module>
 		<module>gateway-server</module>
 		<module>timetable-service</module>
+		<module>realtime-service</module>
 	</modules>
 
 </project>
