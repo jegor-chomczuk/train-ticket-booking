@@ -15,4 +15,4 @@ spring:
           uri: lb://BOOKING-SERVICE
           filters:
             - RewritePath=/booking(?<segment>.*), $\{segment}
-            - RewriteLocationResponseHeader=AS_IN_REQUEST, Location, localhost:8080/api/timetable
+            - RewriteLocationResponseHeader=AS_IN_REQUEST, Location, localhost:8080/booking
