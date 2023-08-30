@@ -1,6 +1,6 @@
 package pl.training.booking.commons;
 
-public enum PaymentStatus {
+public enum BookingStatus {
 
 	STARTED, CONFIRMED, FAILED, CANCELED
 }

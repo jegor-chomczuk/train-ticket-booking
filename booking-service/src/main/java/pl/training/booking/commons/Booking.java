@@ -9,11 +9,11 @@ import lombok.Value;
 
 @Builder
 @Value
-public class Payment {
+public class Booking {
 
 	String id;
 	Money value;
 	Instant timestamp;
-	PaymentStatus status;
+	BookingStatus status;
 
 }
