@@ -11,7 +11,7 @@ spring:
             - RewriteLocationResponseHeader=AS_IN_REQUEST, Location, localhost:8080/api/timetable
         - id: booking-route
           predicates:
-            - Path=/booking**
+            - Path=/booking/**
           uri: lb://BOOKING-SERVICE
           filters:
             - RewritePath=/booking(?<segment>.*), $\{segment}
